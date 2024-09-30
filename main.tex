@@ -1,0 +1,122 @@
+\documentclass[sigconf,review]{acmart} % ACM Conference Style
+\usepackage{lipsum} % for placeholder text
+\usepackage{filecontents} % allows us to generate a bib file within the document
+
+% Canvas Assignment specified font size and spacing
+\usepackage[12pt]{fontsize}
+\renewcommand{\baselinestretch}{1.655} % https://tex.stackexchange.com/questions/492570/difference-between-baselinestretch-and-doublespacing-in-the-setspace-package
+
+% Title
+\title{A Comparative Study of Gamified Learning: Engagement in Computer Science and Language Education}
+
+% Authors
+\author{Dan Houston}
+\affiliation{
+  \institution{San Diego State University}
+  \city{San Diego}
+  \country{United States}
+}
+\email{dhouston7516@sdsu.edu}
+
+\author{Your Name}
+\affiliation{
+  \institution{San Diego State University}
+  \city{San Diego}
+  \country{United States}
+}
+\email{your.email@domain.com}
+
+\author{Your Name}
+\affiliation{
+  \institution{San Diego State University}
+  \city{San Diego}
+  \country{United States}
+}
+\email{your.email@domain.com}
+
+% Abstract
+\begin{abstract}
+Gamification is widely recognized for its potential to enhance both engagement and learning outcomes. This literature review explores key findings in four areas: the mutual benefits of engagement and learning, the impact of gamification on language learning engagement, the application of gamified strategies in computer science education, and the overlap in methodologies used across these domains. By synthesizing studies from these areas, the review aims to provide a comprehensive understanding of how gamification can be effectively applied in educational contexts to improve retention and performance.
+\end{abstract}
+
+% ACM CCS concepts (optional, can be removed if not needed)
+% https://cran.r-project.org/web/classifications/ACM-2012.html
+\begin{CCSXML}
+<ccs2012>
+ <concept>
+  <concept_id>10003752.10003809.10010047.10010048</concept_id>
+  <concept_desc>Education~Interactive learning environments</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10003456.10003457.10003521.10003525</concept_id>
+  <concept_desc>Social and professional topics~Computer science education</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10003456.10003462</concept_id>
+  <concept_desc>Social and professional topics~Computing education</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Theory of computation~Interactive learning environments}
+\ccsdesc[500]{Social and professional topics~Computer science education}
+\ccsdesc[300]{Social and professional topics~Computing education}
+
+% Keywords
+\keywords{Gamification, Computer Science Education, Language Learning, Engagement, Game-Based Learning}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Gamification integrates game elements into educational activities to enhance engagement and learning. This literature review examines how engagement and learning are interrelated, particularly in gamified educational settings. The focus is on analyzing studies that demonstrate the mutual benefits of engagement and learning, the effectiveness of gamified language learning, the application of gamification in computer science education, and the overlapping methodologies utilized in these areas.
+
+\subsection{Research Questions}
+
+\begin{enumerate}
+    \item \textbf{RQ1:} Does gamified CS education increase student engagement?
+    \item \textbf{RQ2:} Does gamified language learning increase student engagement?
+    \item \textbf{RQ3:} Are there similarities/differences in gamified methodologies for \textbf{RQ1} and \textbf{RQ2}?
+\end{enumerate}
+
+\section{Engagement and Learning: A Mutually Beneficial Relationship}
+Research has consistently shown that engagement is a critical factor in learning outcomes. Studies indicate that higher levels of engagement lead to improved retention, deeper understanding, and better academic performance. For example, \citet{article1} demonstrated that students who were more engaged in the learning process achieved better results on assessments, indicating a direct correlation between engagement and learning efficacy. Similarly, \citet{article2} found that interactive and engaging learning environments fostered not only greater interest but also higher retention of material. These findings underscore the importance of designing educational experiences that actively involve students, as engagement and learning are mutually reinforcing.
+
+\section{Gamified Language Learning and User Engagement}
+Gamification has been particularly successful in the domain of language learning, where it has been shown to significantly boost user engagement. Platforms like Duolingo have popularized the use of game elements such as points, levels, and rewards to maintain learner interest and motivation. \citet{article3} explored the impact of gamification on language acquisition and found that learners using gamified apps engaged with content more frequently and consistently than those using traditional methods. Moreover, \citet{article4} highlighted that the immediate feedback provided by gamified systems encourages learners to persist in their studies, leading to improved retention and mastery of new vocabulary. These studies suggest that gamified language learning is particularly effective in maintaining learner engagement, which in turn enhances learning outcomes.
+
+\section{Gamification Fostering Engagement in Computer Science Education}
+Gamification has increasingly been recognized as a strategy to enhance student engagement in computer science education. Several studies have explored its impact, with varying degrees of success.
+
+For example, \citet{Zahedi2021} investigated the use of gamification, specifically virtual points and leaderboards, within a software engineering and programming cyberlearning environment (SEP-CyLE). While the study observed improvements in students' performance and self-efficacy, it found no substantial impact on engagement \cite{Zahedi2021}. The mixed results highlighted that while some students were motivated by the competitive elements, others were apathetic, especially when the gamification elements were perceived as irrelevant in comparison to the mandatory nature of the assignments \cite{Zahedi2021}. Furthermore, issues such as system glitches and incorrect marking of answers diminished the effectiveness of the gamification elements \cite{Zahedi2021}. This underscores the importance of thoughtful game design that is well-adapted to its player base and the educational context.
+
+In contrast, \citet{Hakulinen2021} reported that the use of badges and alternate reality games in a data structures and algorithms course significantly increased student engagement. The study noted that badges, even without tangible rewards, effectively steered student behavior, particularly among those with certain motivational orientations \cite{Hakulinen2021}. This suggests that specific gamification elements, like badges, can be powerful tools for enhancing engagement when aligned with student motivations.
+
+Moreover, \citet{Mohammed_Jawad2021} focused on Generation Z students in computer science education and found that gamification strategies such as role-playing, gaming examples, and points led to a notable increase in engagement. For example, in a data structures course, 70\% of students reported higher engagement levels, and in a mobile app development course, 76.4\% of students expressed increased interest in programming \cite{Mohammed_Jawad2021}. These findings underscore the effectiveness of gamification in maintaining the attention and interest of younger students.
+
+Similarly, \citet{Imran2022} explored different levels of gamification in an introductory programming course. The study revealed that while motivation and performance improved significantly, the impact on engagement was dependent on the depth of the gamification elements \cite{Imran2022}. This indicates that while gamification generally enhances student engagement, the extent of this effect is closely tied to the design and implementation of the gamified experience.
+
+\citet{Butler2016} further demonstrated that gamification, through serious games developed in Unity3D, significantly increased student engagement and interest in learning computer science concepts. A vast majority of students (85\% or more) agreed that interactive, game-like learning environments made difficult concepts more approachable and enjoyable \cite{Butler2016}, suggesting that well-designed gamification strategies can replicate the engagement levels seen in popular video games.
+
+Additionally, \citet{Ibanez2014} conducted a study on gamification in a C programming course, showing that elements like badges and leaderboards were particularly effective in increasing cognitive engagement. The study found that most students continued participating in learning activities even after achieving the maximum grade points, motivated by the desire to collect badges, indicating a high level of engagement driven by these gamification elements \cite{Ibanez2014}.
+
+In conclusion, the evidence suggests that gamification can be a powerful tool for enhancing student engagement in computer science education. However, the effectiveness of gamification in fostering engagement varies depending on the specific elements used and how well these elements align with students' motivations and the overall learning environment.
+
+\section{Overlapping Methodologies in Gamified Education}
+A comparative analysis of the methodologies employed in gamified language learning and computer science education reveals several common strategies. Both domains frequently utilize point-based systems, leaderboards, and achievement badges to motivate learners and track progress. For example, \citet{article7} and \citet{article8} both utilized point systems to reward student participation, although their studies focused on different subject areas. Additionally, the incorporation of narrative elements, such as storylines or quests, is another shared methodology that has proven effective in engaging learners across both fields. \citet{article9} noted that narrative-driven gamification helped students relate to the material on a personal level, thereby enhancing both engagement and retention. These overlapping methodologies suggest that certain gamified strategies can be broadly applicable across different educational domains, although they may need to be tailored to fit the specific content and learning objectives of each field.
+
+\section{Conclusion}
+The literature reviewed suggests that gamification is an effective strategy for enhancing both engagement and learning in various educational contexts. While both computer science and language learning benefit from gamified approaches, the specific methodologies employed often overlap, indicating that certain game elements can be universally effective. However, the success of these methods depends on how well they are adapted to the specific needs of the subject matter. Future research should continue to explore how these methodologies can be optimized to further enhance learning outcomes in diverse educational settings.
+
+\begin{acks}
+This research was supported by San Diego State University. We thank Dr. Miranda Parker for their valuable feedback.
+\end{acks}
+
+% References
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bibliography}
+
+\end{document}
